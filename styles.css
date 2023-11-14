@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+* {
+	font-family: 'Vina Sans', sans-serif;
+	letter-spacing: 0.6px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.7rem;
+}
+
+input {
+	width: 14rem;
+	height: 2.5rem;
+	font-size: 20px;
+	text-align: center;
+}
+img {
+	height: 15rem;
+	width: 15rem;
+}
+
+button {
+	padding: 1.2rem;
+	font-size: 20px;
+
+	background-color: rgb(107, 59, 14);
+	color: white;
+	width: 14rem;
+	border: 8rem;
+}
+
+.joke {
+	font-size: 40px;
+	text-align: center;
+	border: 0.1rem solid black;
+	padding: 2rem;
+	width: 40rem;
+	background-color: antiquewhite;
+}
+select {
+	width: 14rem;
+	height: 2.5rem;
+	font-size: 20px;
+}
+option {
+	text-align: center;
+}
+
+.box {
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+	transition: box-shadow ease 0.5s;
+}
+.box:hover {
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.25);
+	background-color: rgb(164, 123, 40);
+}
+
+h1 {
+	font-size: 70px;
+	margin: 0;
+}
